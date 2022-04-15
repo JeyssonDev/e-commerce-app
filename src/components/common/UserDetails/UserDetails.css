@@ -1,0 +1,14 @@
+.UserDetails {
+    text-align: center;
+}
+
+.UserDetails b {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.UserDetails button {
+    color: #2fa8f8;
+    background: transparent;
+    font-size: inherit;
+}

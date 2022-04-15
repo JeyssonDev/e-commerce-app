@@ -1,0 +1,25 @@
+.toast {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: -40px;
+    left: 0;
+    transition: bottom 0.75s ease;
+}
+
+.toast.open {
+    bottom: 15%;
+    transition: bottom 0.75s ease;
+}
+
+.toast .toast-message {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}

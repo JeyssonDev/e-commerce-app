@@ -1,0 +1,42 @@
+footer {
+    background: #3c3c3b;
+    padding: 60px 0;
+    position: relative;
+}
+
+footer * {
+    color: #fff;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+footer .social-networks {
+    text-align: center;
+}
+
+footer .social-networks a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #50504f;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2.45;
+}
+
+footer .social-networks a i {
+    transition: color 0.15s linear;
+}
+
+@media only screen and (min-width: 992px) {
+    footer .social-networks a:hover > i {
+        color: var(--primary);
+        transition: color 0.15s linear;
+    }
+}

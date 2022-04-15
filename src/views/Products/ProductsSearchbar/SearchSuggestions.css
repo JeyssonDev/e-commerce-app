@@ -1,0 +1,59 @@
+.search-box .input .clear-searchbox-btn {
+    background: transparent;
+    color: var(--primary);
+    font-size: 1.25rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.25rem 0.5rem;
+    position: absolute;
+    right: 46px;
+    transform: translateY(25%);
+}
+
+.search-suggestions {
+    box-shadow: 0 6px 12px 3px rgba(149, 157, 165, 0.5);
+    background: #fff;
+    max-width: 900px;
+    min-height: 30px;
+    max-height: 266px;
+    margin: auto;
+    border-top: 1px solid var(--light-gray);
+    position: absolute;
+    top: 46px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.search-suggestions li {
+    margin: 0.25rem 0;
+    padding: 0.25rem;
+    list-style: none;
+    cursor: default;
+}
+
+.search-suggestions li.product-title {
+    cursor: pointer;
+}
+
+.search-suggestions li.product-title strong {
+    color: #000;
+}
+
+.search-suggestions li.product-title:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+.search-suggestions li.product-title:hover strong {
+    color: #fff;
+}
+
+.active-suggestion {
+    background: var(--primary);
+    color: #fff;
+}
+
+.search-suggestions li.product-title.active-suggestion strong {
+    color: #fff;
+}

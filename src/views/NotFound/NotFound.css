@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Gamja+Flower");
+
+.not-found-container {
+    font-family: "Gamja Flower", cursive;
+}
+
+.not-found-container p {
+    font-family: "Comfortaa", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.not-found-container a {
+    color: red;
+    text-decoration: none;
+    font-family: "Comfortaa", cursive;
+}
+
+.not-found {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tipsiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.tipsiz-body {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.arm {
+    align-self: flex-end;
+    width: 25px;
+    height: 45px;
+    border-top: 3px solid black;
+}
+
+.left-arm {
+    border-right: 3px solid black;
+    transform: skew(20deg);
+}
+
+.right-arm {
+    border-left: 3px solid black;
+    transform: skew(-20deg);
+}
+
+.face {
+    width: 150px;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.upper-face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 40px;
+    margin-left: 40px;
+}
+
+.element {
+    font-size: 30px;
+}
+
+.mouth {
+    width: 10px;
+    height: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 3px solid black;
+    border-bottom: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    /* .not-found-container {
+        margin-top: 10%;
+     } */
+
+    .arm {
+        width: 50px;
+        height: 90px;
+    }
+
+    .face {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .mouth {
+        width: 20px;
+        height: 10px;
+    }
+}

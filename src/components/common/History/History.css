@@ -1,0 +1,17 @@
+.history {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.history a {
+    text-decoration: none;
+}
+
+.history .separator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary);
+    margin: 0 14px;
+}

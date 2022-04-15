@@ -1,0 +1,60 @@
+.UserModal {
+    background: #fff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    transform: scale(0);
+    transform-origin: top;
+    transition: 0.5s ease-in-out;
+    z-index: 9;
+    max-height: 85vh;
+}
+
+.UserModal.open {
+    transform: scale(1);
+}
+
+.user-avatar {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.switch-forms {
+    font-size: 0.9rem;
+}
+
+.switch-forms button {
+    color: #2fa8f8;
+    background: transparent;
+    font-size: inherit;
+}
+
+@media (min-width: 568px) {
+    .UserModal {
+        right: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .UserModal {
+        top: 70px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .UserModal {
+        right: 25%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .UserModal {
+        right: 28%;
+    }
+}
